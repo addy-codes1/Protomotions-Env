@@ -1,0 +1,26 @@
+*/babel/*.json
+.idea
+.vscode
+*__pycache__*
+*.egg-info
+outputs/*
+output/*
+rendered_images/*
+*tmp*
+results/*
+exps/*
+.DS_Store
+**/.DS_Store
+wandb/*
+newton_source/*
+data/amass/*.pkl
+.claude/*
+!.claude/commands/
+.cursor/
+renders/
+
+# Large binary files not needed for the retargeting pipeline
+data/pretrained_models/
+data/soma-kimodo-generated/
+protomotions/data/assets/usd/
+protomotions/data/assets/blender/
